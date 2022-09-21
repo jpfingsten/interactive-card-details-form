@@ -13,49 +13,56 @@
 
 </head>
 <body>
-  <main>
-    <div class="card-area">
-      <div class="card">
-        <div class="content-wrapper">
-          <div class="card-front">
-            <img class="logo" alt="credit card front" />
-            <div class="card-number">0000 0000 0000 0000</div>
-            <div class="cardholder-name">Jane Appleseed</div>
-            <div class="expiration-date">00/00</div>
-          </div>
-          <div class="card-back">
-            <div class="cvc">000</div>
-          </div>
+    <main>
+        <div class="card-area">
+            <div class="card">
+                <div class="content-wrapper">
+                    <div class="card-front">
+                        <img class="logo" alt="credit card front" />
+                        <div class="card-number">0000 0000 0000 0000</div>
+                        <div class="cardholder-name">Jane Appleseed</div>
+                        <div class="expiration-date">00/00</div>
+                    </div>
+                    <div class="card-back">
+                        <div class="cvc">000</div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="input-area">
-      <div class="content-wrapper">
-        <label>Cardholder Name</label>
-        <input type="text" placeholder="e.g. Jane Appleseed"></input>
+        <div class="input-area">
+            <div class="content-wrapper">
+                <label>Cardholder Name</label>
+                <input type="text" placeholder="e.g. Jane Appleseed"></input>
 
-        <label>Card Number</label>
-        <input type="text" placeholder="e.g. 1234 5678 9123 0000"></input>
+                <label>Card Number</label>
+                <input type="text" placeholder="e.g. 1234 5678 9123 0000"></input>
 
-        <label for=expiration>Exp. Date (MM/YY)</label>
-        <input type="text" placeholder="MM" name="expiration"></input>
-        <input type="text" placeholder="YY" name="expiration"></input>
+                <label for=expiration>Exp. Date (MM/YY)</label>
+                <input type="text" placeholder="MM" name="expiration"></input>
+                <input type="text" placeholder="YY" name="expiration"></input>
 
-        <label>CVC</label>
-        <input type="text" placeholder="e.g. 123"></input>
+                <label>CVC</label>
+                <input type="text" placeholder="e.g. 123"></input>
 
-      </div>
-    </div>
-  </main>
+                <button id="btnConfirm">Confirm</button>
 
-  Confirm
+            </div>
+        </div>
 
-  <!-- Completed state start -->
+        <!-- Completed state start -->
 
-  Thank you!
-  We've added your card details
-  Continue
+        <div class="thank-you-area">
+            <h1>Thank you!</h1>
+            <p>We've added your card details</p>
+            <button id="btnContinue">Continue</button>
+        </div>
+
+        <!-- Completed thank you state -->
+
+    </main>
+
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
