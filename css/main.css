@@ -12,6 +12,22 @@
 
 /***** GLOBAL STYLES *****/
 
+body {
+  font-size: 18px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/***** MOBILE STYLES *****/
+
+.card-front {
+  background-image: url("../images/bg-card-front.png");
+  background-repeat: no-repeat;
+}
+
+.card-back {
+  background-image: url("../images/bg-card-back.png");
+  background-repeat: no-repeat;
+}
 
 /***** FRONT-END MENTOR STYLES *****/
 
