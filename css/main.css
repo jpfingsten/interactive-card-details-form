@@ -19,15 +19,21 @@ body {
 
 /***** MOBILE STYLES *****/
 
-.card-area {
-  background-image: url("../images/bg-main-mobile.png");
-  color: white;
-  height: 100%;
+.content-wrapper {
+  padding: 1rem;
 }
 
-.card-front-wrapper {
-  padding: 1.8rem;
-  width: 370px;
+.card-area {
+  background-image: url("../images/bg-main-mobile.png");
+  background-size: 100%;
+  color: white;
+  height: 240px;
+}
+
+.card-content-wrapper {
+  padding: 1.125rem 1.25rem;
+  width: 280px;
+  min-height: 180px;
 }
 
 .card-front {
@@ -38,31 +44,44 @@ body {
   -o-background-size: contain;
   background-size: contain;
   overflow: none;
-  width: 447px;
+  position: fixed;
+  z-index: 999;
+  top: 130px;
 }
 
 .logo {
-  width: 3.75rem;
+  width: 3.125rem;
 }
 
 .card-number {
-  margin: 3rem 0 0 0;
+  margin: 2.125rem 0 0 0;
   letter-spacing: .1875rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .card-lower-text {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .15rem;
-  margin-top: 1.7rem;
+  font-size: .55rem;
+  letter-spacing: .05rem;
+  margin-top: 1.25rem;
+  opacity: 0.7;
 }
 
 .card-back {
   background-image: url("../images/bg-card-back.png");
   background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  overflow: none;
+  width: 275px;
+}
+
+.cvc {
+  text-align: right;
 }
 
 /***** FRONT-END MENTOR STYLES *****/
