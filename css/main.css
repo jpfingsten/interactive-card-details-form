@@ -27,7 +27,7 @@ body {
   background-image: url("../images/bg-main-mobile.png");
   background-size: 100%;
   color: white;
-  height: 240px;
+  height: 228px;
 }
 
 .card-content-wrapper {
@@ -46,7 +46,8 @@ body {
   overflow: none;
   position: fixed;
   z-index: 999;
-  top: 130px;
+  top: 117px;
+  width: 275px;
 }
 
 .logo {
@@ -65,7 +66,7 @@ body {
   text-transform: uppercase;
   font-size: .55rem;
   letter-spacing: .05rem;
-  margin-top: 1.25rem;
+  margin-top: 1.15rem;
   opacity: 0.7;
 }
 
@@ -78,19 +79,26 @@ body {
   background-size: contain;
   overflow: none;
   width: 275px;
+  position: fixed;
+  right: 16px;
+  top: 32px;
 }
 
 .cvc {
   text-align: right;
+  font-size: .55rem;
+  opacity: 0.7;
+  letter-spacing: .05rem;
+  margin: 3.175rem 1.15rem 0 0;
 }
 
 /***** FRONT-END MENTOR STYLES *****/
 
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
